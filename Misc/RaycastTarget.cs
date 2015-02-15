@@ -4,7 +4,7 @@ public static class RaycastTarget {
 
 	public static Vector3 Cast()
 	{
-		return Cast(new Vector3(0.5f, 0.5f, 0f));
+		return Cast(new Vector3(Camera.main.pixelWidth / 2, Camera.main.pixelHeight / 2, 0f));
 	}
 
 	public static Vector3 Cast(Vector3 screenPoint)
